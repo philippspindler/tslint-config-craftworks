@@ -1,9 +1,9 @@
-# TSLint Config Airbnb
+# TSLint Config Craftworks
 
 [![NPM version](https://img.shields.io/npm/v/tslint-config-airbnb.svg?style=flat)](https://www.npmjs.com/package/tslint-config-airbnb)
 [![Downloads](http://img.shields.io/npm/dm/tslint-config-airbnb.svg?style=flat)](https://npmjs.org/package/tslint-config-airbnb)
 
-A [TSLint config](https://palantir.github.io/tslint/usage/configuration/) used at [craftworks](https://craftworks.at) optimized for [Angular](https://angular.io)
+A TSLint config used at [craftworks](https://craftworks.at) optimized for Angular
 
 Contains the ruleset of `tslint:recommended`, `tslint-angular` and `tslint-config-prettier` (in that order) and applies some custom [rules](tslint.js).
 
