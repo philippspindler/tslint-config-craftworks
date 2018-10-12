@@ -1,7 +1,7 @@
 {
   "name": "tslint-config-craftworks",
   "version": "1.0.0",
-  "description": "A TSLint configuration used at craftworks optimized for Angular",
+  "description": "A TSLint config used at craftworks optimized for Angular",
   "main": "tslint.js",
   "scripts": {
     "lint-examples": "tslint ./examples/**/*.ts -c tslint.js --fix -p tsconfig.json"
