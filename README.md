@@ -1,7 +1,7 @@
 # TSLint Config Craftworks
 
-[![NPM version](https://img.shields.io/npm/v/tslint-config-airbnb.svg?style=flat)](https://www.npmjs.com/package/tslint-config-airbnb)
-[![Downloads](http://img.shields.io/npm/dm/tslint-config-airbnb.svg?style=flat)](https://npmjs.org/package/tslint-config-airbnb)
+[![NPM version](https://img.shields.io/npm/v/tslint-config-craftworks.svg?style=flat](https://www.npmjs.com/package/tslint-config-craftworks)
+[![Downloads](http://img.shields.io/npm/dm/tslint-config-craftworks.svg?style=flat)](https://npmjs.org/package/tslint-config-craftworks)
 
 A TSLint config used at craftworks optimized for Angular
 
