@@ -50,12 +50,6 @@ module.exports = {
   
       "array-type": [true, "array"],
   
-      // --- Angular Rules
-      // --- https://angular.io/guide/styleguide
-  
-      "directive-selector": [true, "attribute", "mapp", "camelCase"],
-      "component-selector": [true, "element", "mapp", "kebab-case"],
-
       // --- tslint-consistent-codestyle
       // --- https://github.com/ajafff/tslint-consistent-codestyle
 
