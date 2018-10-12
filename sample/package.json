@@ -1,5 +1,5 @@
 {
-  "name": "test",
+  "name": "sample",
   "version": "1.0.0",
   "scripts": {
     "lint": "tslint src/**/*.ts -c tslint.json -p tsconfig.json --fix"
