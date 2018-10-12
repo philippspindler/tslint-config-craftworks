@@ -39,4 +39,4 @@ See [package.json](package.json) for more details
 
 ## License
 
-MIT
+[MIT](LICENSE)
