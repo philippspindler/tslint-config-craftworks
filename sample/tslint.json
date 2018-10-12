@@ -1,0 +1,9 @@
+{
+    "extends": [
+        "tslint-config-craftworks"
+    ],
+    "rules": {
+        "directive-selector": [true, "attribute", "prefix", "camelCase"],
+        "component-selector": [true, "element", "prefix", "kebab-case"]
+    }
+}

@@ -1,6 +1,6 @@
 module.exports = {
     "rulesDirectory": [
-        "node_modules/codelyzer", 
+        "codelyzer", 
         "tslint-consistent-codestyle", 
         "tslint-jasmine-rules"
     ],

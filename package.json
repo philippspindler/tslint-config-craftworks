@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "A TSLint config used at craftworks optimized for Angular",
   "main": "tslint.js",
-  "scripts": {
-    "lint-examples": "tslint ./examples/**/*.ts -c tslint.js --fix -p tsconfig.json"
-  },
   "keywords": [
     "craftworks",
     "tslint",
@@ -28,14 +25,5 @@
     "tslint-config-prettier": "^1.15.0",
     "tslint-consistent-codestyle": "^1.13.3",
     "tslint-jasmine-rules": "^1.5.1"
-  },
-  "devDependencies": {
-    "@angular/compiler": "^6.1.10",
-    "@angular/core": "^6.1.10",
-    "@types/jest": "^23.3.5",
-    "jest": "^23.6.0",
-    "rxjs": "^6.3.3",
-    "tslint": "^5.11.0",
-    "typescript": "^3.1.3"
   }
 }
