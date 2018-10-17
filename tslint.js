@@ -30,7 +30,7 @@ module.exports = {
       "file-name-casing": [true, "kebab-case"],
       "naming-convention": [
         true,
-        {"type": "default", "leadingUnderscore": "forbid", "trailingUnderscore": "forbid"},
+        {"type": "default", "leadingUnderscore": "forbid", "trailingUnderscore": "forbid", "suffix": ["DTO", "JSON", "ID", ""]},
 
         {"type": "variable", "format": ["strictCamelCase","UPPER_CASE"]},
         {"type": "function", "format": "strictCamelCase"},
