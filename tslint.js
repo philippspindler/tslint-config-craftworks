@@ -32,7 +32,7 @@ module.exports = {
         true,
         {"type": "default", "leadingUnderscore": "forbid", "trailingUnderscore": "forbid", "suffix": ["DTO", "JSON", "ID", ""]},
 
-        {"type": "variable", "format": ["strictCamelCase","UPPER_CASE"]},
+        {"type": "variable", "format": ["strictCamelCase","UPPER_CASE"], "trailingUnderscore": "allow"},
         {"type": "function", "format": "strictCamelCase"},
 
         {"type": "class", "format": "StrictPascalCase"},
@@ -40,9 +40,9 @@ module.exports = {
         {"type": "type", "format": "StrictPascalCase"},
 
         {"type": "enum", "format": "StrictPascalCase"},
-        {"type": "enumMember", "format": "UPPER_CASE"},
+        {"type": "enumMember", "format": "UPPER_CASE", "trailingUnderscore": "allow"},
 
-        {"type": "property", "format": ["strictCamelCase","UPPER_CASE"]},
+        {"type": "property", "format": ["strictCamelCase","UPPER_CASE"], "trailingUnderscore": "allow"},
         {"type": "method", "format": "strictCamelCase"},
         
         {"type": "parameter", "format": "strictCamelCase"},
