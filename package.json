@@ -5,7 +5,7 @@
     "type": "git",
     "url": "https://github.com/craftworksgmbh/tslint-config-craftworks"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A TSLint config used at craftworks optimized for Angular",
   "main": "tslint.js",
   "keywords": [
