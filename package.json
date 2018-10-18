@@ -22,7 +22,7 @@
     "tslint": ">=5.11.0",
     "rxjs": "^5.0.0 || ^6.0.0"
   },
-  "dependencies": {
+  "devDependencies": {
     "codelyzer": "^4.5.0",
     "rxjs-tslint-rules": "^4.10.0",
     "tslint-angular": "^1.1.2",
