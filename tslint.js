@@ -53,7 +53,6 @@ module.exports = {
       // --- tslint-consistent-codestyle
       // --- https://github.com/ajafff/tslint-consistent-codestyle
 
-      "no-return-undefined": true,
       "no-static-this": true,
 
       // --- tslint-jasmine-rules
