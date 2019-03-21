@@ -18,6 +18,9 @@ module.exports = {
   
       // Show member access for better maintainability
       "member-access": true,
+
+      // Allow the non-null-assertion
+      "no-non-null-assertion": false,
   
       // --- Typescript Handbook Styleguide
       // --- https://github.com/basarat/typescript-book/blob/master/docs/styleguide/styleguide.md
