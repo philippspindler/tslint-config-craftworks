@@ -13,6 +13,9 @@ export class Example {
     }
 
     public aMethodWithObservbleAsReturn$(aParameter: number): Observable<number> { 
-        return of(1);
+        const x: number[] | undefined = [1, 2];
+        const y = x!.length;
+
+        return of(y);
     }
 }
