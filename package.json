@@ -16,17 +16,18 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "@angular/compiler": ">=2.3.1 <8.0.0 || >7.0.0 <8.0.0",
-    "@angular/core": ">=2.3.1 <8.0.0 || >7.0.0 <8.0.0",
-    "typescript": "^2.3.0 || ^3.0.0",
+    "@angular/compiler": "^8.0.0",
+    "@angular/core": "^8.0.0",
+    "codelyzer": "^5.0.0",
+    "typescript": "^3.0.0",
     "tslint": "^5.0.0",
-    "rxjs": "^5.0.0 || ^6.0.0"
+    "rxjs": "^6.0.0"
   },
   "dependencies": {
     "rxjs-tslint-rules": "^4.10.0",
-    "tslint-angular": "^1.1.2",
-    "tslint-config-prettier": "^1.15.0",
-    "tslint-consistent-codestyle": "^1.13.3",
-    "tslint-jasmine-rules": "^1.5.1"
+    "tslint-angular": "^3.0.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-consistent-codestyle": "^1.15.0",
+    "tslint-jasmine-rules": "^1.6.0"
   }
 }

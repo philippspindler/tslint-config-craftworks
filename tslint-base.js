@@ -1,6 +1,5 @@
 module.exports = {
     "rulesDirectory": [
-        "codelyzer", 
         "tslint-consistent-codestyle", 
         "tslint-jasmine-rules"
     ],
@@ -9,7 +8,7 @@ module.exports = {
         "tslint-angular", 
         "tslint-config-prettier", 
         
-        // rsjs-tslint-rules does not support rulesDirectory
+        // rxjs-tslint-rules does not support rulesDirectory
         "rxjs-tslint-rules"
     ]
 }
