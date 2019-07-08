@@ -31,6 +31,7 @@ In `tslint.json`:
 
  - `@angular/compiler`
  - `@angular/core`
+ - `codelyzer`
  - `typescript`
  - `tslint`
  - `rxjs`
