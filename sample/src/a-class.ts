@@ -12,10 +12,12 @@ export class Example {
         return i + aParameter;
     }
 
-    public aMethodWithObservbleAsReturn$(aParameter: number): Observable<number> { 
+    public aMethodWithObservbleAsReturn$(aParameter: number): Observable<any> { 
         const x: number[] | undefined = [1, 2];
         const y = x!.length;
-
-        return of(y);
+        
+        const z = [1, 2, 3].map((_, i) => i);
+        
+        return of([y, z]);
     }
 }

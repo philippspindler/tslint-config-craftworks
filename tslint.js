@@ -42,6 +42,8 @@ module.exports = {
         {"type": "interface", "format": "StrictPascalCase"},
         {"type": "type", "format": "StrictPascalCase"},
 
+        {"type": "parameter", "modifiers": "unused", "leadingUnderscore": "allow"},
+
         {"type": "enum", "format": "StrictPascalCase"},
         {"type": "enumMember", "format": "UPPER_CASE", "trailingUnderscore": "allow"},
 
