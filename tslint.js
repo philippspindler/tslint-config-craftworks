@@ -59,7 +59,6 @@ module.exports = {
       // --- https://github.com/ajafff/tslint-consistent-codestyle
 
       "no-static-this": true,
-      "no-unnecessary-else": [true, "allow-else-if"],
 
       // --- tslint-jasmine-rules
       // --- https://github.com/kaiza/tslint-jasmine-rules
