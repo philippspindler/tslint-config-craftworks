@@ -29,7 +29,7 @@ module.exports = {
   
       "class-name": true,
       "interface-name": [true, "never-prefix"],
-      "variable-name": { "options": ["ban-keywords", "check-format"] },
+      "variable-name": { "options": ["ban-keywords", "check-format", "allow-leading-underscore"] },
       "file-name-casing": [true, "kebab-case"],
       "naming-convention": [
         true,
@@ -54,11 +54,13 @@ module.exports = {
       ],
   
       "array-type": [true, "array"],
-  
+
       // --- tslint-consistent-codestyle
       // --- https://github.com/ajafff/tslint-consistent-codestyle
 
       "no-static-this": true,
+      "ext-curly": [true, "consistent"],
+      "no-unnecessary-else": [true, "allow-else-if"],
 
       // --- tslint-jasmine-rules
       // --- https://github.com/kaiza/tslint-jasmine-rules
@@ -79,4 +81,3 @@ module.exports = {
       "rxjs-no-unsafe-takeuntil": { "severity": "error" }
     }
   }
-  

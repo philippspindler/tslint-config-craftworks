@@ -1,7 +1,7 @@
 import { Observable, of } from 'rxjs';
 
 export class Example {
-    public readonly aProperty;
+    public readonly _aProperty;
     
     constructor() {
 
@@ -12,12 +12,12 @@ export class Example {
         return i + aParameter;
     }
 
-    public aMethodWithObservbleAsReturn$(aParameter: number): Observable<any> { 
+    public aMethodWithObservbleAsReturn$(_aParameter: number, _: number): Observable<any> {
         const x: number[] | undefined = [1, 2];
         const y = x!.length;
+
+        const z = [1, 2, 3].map((__, i) => i);
         
-        const z = [1, 2, 3].map((_, i) => i);
-        
-        return of([y, z]);
+        return of([_aParameter, y, z]);
     }
 }
